@@ -1,0 +1,40 @@
+{
+    "author": "tertrachter@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "stan",
+    "pebble": {
+        "displayName": "STAN Classic",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/scott.png",
+                    "name": "IMAGE_BACKGROUND_PNG",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "fonts/RobotoCondensed-Regular.ttf",
+                    "name": "ROBOTO_CONDENSED_16",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "0e976151-6532-4cd0-aa66-8b81acf4266d",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
